@@ -1,0 +1,272 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background: #ff6600;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #e55c00;
+}
+
+main {
+    padding: 10rem 2rem 1rem;
+}
+main {
+    padding: 10rem 2rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#quote-of-the-week {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+#quotes, #shayari {
+    width: calc(50% - 1rem); /* Adjust width as needed */
+    margin-right: 1rem;
+    margin-bottom: 2rem; /* Adjust margin as needed */
+}
+
+@media screen and (max-width: 768px) {
+    #quotes, #shayari {
+        width: 100%; /* Adjust for smaller screens */
+        margin-right: 0;
+    }
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#quotes, #shayari {
+    flex-basis: 48%; /* Adjust width as needed */
+}
+h2 {
+    color: #ff6600;
+    border-bottom: 2px solid #ff6600;
+    padding-bottom: 0.5rem;
+}
+
+#quote-of-the-week {
+    margin-bottom: 2rem;
+}
+
+#quote-of-the-week p {
+    font-size: 1.2rem;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#quote-of-the-week .date,
+#quote-of-the-week .author {
+    color: blue;
+    font-weight: bold;
+}
+
+#quotes .quote,
+#shayari .quote {
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+#quotes .quote:hover,
+#shayari .quote:hover {
+    background: #f0f0f0;
+}
+
+.quote-image {
+    max-width: 40%;
+    border-radius: 5px;
+}
+
+#quotes .quote .quote-text,
+#shayari .quote .quote-text {
+    margin: 0;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+#quotes .quote .quote-text:hover,
+#shayari .quote .quote-text:hover {
+    color: #ff6600;
+}
+
+.date,
+.author {
+    color: blue;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 0.5rem;
+}
+
+.like-btn,
+.dislike-btn,
+.comment-btn {
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.like-btn:hover,
+.dislike-btn:hover,
+.comment-btn:hover {
+    background: #e55c00;
+}
+
+.comments-section {
+    display: none;
+    margin-top: 1rem;
+}
+
+.comments {
+    margin-bottom: 1rem;
+}
+
+.comment-input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.submit-comment-btn {
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.submit-comment-btn:hover {
+    background: #e55c00;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.social-icons a {
+    margin: 0 0.5rem;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    margin: 0 0.5rem;
+}
+
+.follow-text {
+    margin-top: 1rem;
+}
+
+.follow-text span {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.instagram {
+    color: #E1306C; /* Instagram color */
+}
+
+.facebook {
+    color: #1877F2; /* Facebook color */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

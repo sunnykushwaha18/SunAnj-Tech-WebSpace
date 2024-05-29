@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Noto+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidebar {
+     background-color: rgb(216, 217, 225); 
+     width: 400px;
+    height: 100vh;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.sidebar nav {
+    padding: 3px;
+    float: left;
+   
+}
+
+ .sidebar nav li {
+    list-style: none;
+    font-size: 18px;
+    padding: 37px;
+}
+.sidebar nav li a{
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+    /* background-color: cadetblue; */
+    width: 90vw;
+    margin-left: auto;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer{
+   background-color:white;
+   height: 75vh;
+   width: 80vw;
+   margin: 95px auto;
+   display: flex;
+   justify-content: space-around;
+
+}
+.devinfo{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+.moreabout{
+   font-size: 25px;
+   font-family: 'Edu NSW ACT Foundation', cursive;
+
+}
+.hello{
+   font-size: 75px;
+   font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.name{
+   font-size: 60px ;
+   font-weight: bold ;
+}
+.buttons{
+   margin-top: 34px;
+}
+.buttons button{
+   padding: 9px 14px;
+   border-radius: 22px;
+   color: rgb(215, 234, 250);
+   background-color: rgb(37, 100, 217);
+   font-weight: bold;
+   font-size: 18px;
+   margin: 0 3px;
+   cursor: pointer;
+
+}
+.buttons button:hover{
+  color: dodgerblue;
+  background-color:rgb(215, 234, 250);
+
+}
+.about{
+   font-size: 50px;
+   font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.devPic img{
+   height: 75vh;
+}
+
+.contactform{
+  padding: 0 34px;
+  padding-top: 190px;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+
+}
+.contactform h1{
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  text-align: center;
+}
